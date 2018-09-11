@@ -1,0 +1,73 @@
+.mobpharm-block {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.mobpharm-block.none {
+    display: none;
+}
+
+.mobpharm-img {
+    padding-top: 50px;
+}
+.mobpharm-img img {
+    width: 100%;
+}
+
+.mobpharm-description {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    width: 550px;
+}
+
+.mobpharm-description h2 {
+    font-size: 1.4rem;
+}
+
+.mobpharm-description p {
+    padding-top: 15px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+@media (max-width: 650px){
+    .mobpharm-block {
+        width: 375px;
+    }
+    
+    .mobpharm-description {
+        width: 375px;
+    }
+    .mobpharm-description h2 {
+        font-size: 1.2rem;
+    }
+    
+    .mobpharm-description p {
+        padding-top: 15px;
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 375px) {
+    .mobpharm-block {
+        width: 300px;
+    }
+    
+    .mobpharm-description {
+        width: 300px;
+    }
+    .mobpharm-description h2 {
+        font-size: 1.1rem;
+    }
+    
+    .mobpharm-description p {
+        padding-top: 15px;
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    
+}

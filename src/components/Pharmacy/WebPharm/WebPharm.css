@@ -1,0 +1,72 @@
+
+.pharmacy-blocks {
+    width: 100%;
+    height: auto;
+}
+
+.pharmacy-blocks.none {
+    display: none;
+}
+
+.pharmacy-blocks img{
+    width: 550px;
+}
+
+.pharmacy-container {
+    padding-top: 100px;
+    display: flex;
+    width: 1155px;
+    margin: 0 auto;
+}
+.pharmacy-left {
+    width: 550px;
+    padding-right: 50px;
+}
+.pharmacy-right {
+    width: 550px;
+}
+.pharmacy-description {
+    padding-top: 110px;
+    text-align: left;
+    width: 500px;
+}
+
+.pharmacy-description h2 {
+    font-size: 1.5rem;
+}
+
+.pharmacy-description p {
+    padding-top: 24px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+
+@media (max-width: 1200px){
+    .pharmacy-blocks img{
+        width: 450px;
+    }
+    
+    .pharmacy-container {
+        width: 955px;
+    }
+    .pharmacy-left {
+        width: 450px;
+    }
+    .pharmacy-right {
+        width: 450px;
+    }
+    .pharmacy-description {
+        padding-top: 75px;
+        width: 400px;
+    }
+    
+    .pharmacy-description p {
+        padding-top: 24px;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .pharmacy-description h2 {
+        font-size: 1.4rem;
+    }
+}

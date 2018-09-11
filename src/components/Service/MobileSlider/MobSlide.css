@@ -1,0 +1,63 @@
+.mob-slide {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    animation: topdown 1s cubic-bezier(0, 0, 0, 1) 1 normal forwards;
+}
+
+.mob-icon i {
+    font-size: 6rem;
+    padding-bottom: 50px; 
+}
+
+.mob-description {
+    width: 420px;
+    margin: 0 auto;
+}
+
+.mob-description h2 {
+    padding-bottom: 25px;
+}
+
+.mob-description p {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 650px) {
+    .mob-icon i {
+        font-size: 6rem;
+        padding-bottom: 50px; 
+    }
+    
+    .mob-description {
+        width: 350px;
+    }
+    .mob-description h2 {
+        padding-bottom: 25px;
+        font-size: 1.2rem;
+    }
+    
+    .mob-description p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .mob-description {
+        width: 250px;
+    }
+    .mob-icon i {
+        font-size: 5rem;
+    }
+    .mob-description h2 {
+        padding-bottom: 25px;
+        font-size: 1.1rem;
+    }
+    
+    .mob-description p {
+        font-size: 0.7rem;
+        width: 250px;
+    }
+    
+}

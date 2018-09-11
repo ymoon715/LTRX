@@ -1,0 +1,28 @@
+.service-container {
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.service-icon {
+    height: 150px;
+}
+
+.service-icon i {
+    font-size: 4.5rem;
+}
+
+.service-text {
+    height: 200px
+}
+
+.service-text h2 {
+    padding-bottom: 25px;
+}
+
+.service-text p {
+    font-size: 0.9rem;
+}
+

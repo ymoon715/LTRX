@@ -1,0 +1,49 @@
+.sidedrawer {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+    transform: translateY(-120%);
+    z-index: 499;
+    background: #212121;
+    transition: 0.4s ease-in;
+    color: white;
+    border-radius: 0 0 50px 50px;
+    opacity: 0;
+}
+
+.sidedrawer.open{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.sidedrawer-nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sidedrawer-nav ul {
+    list-style: none;
+    
+}
+
+.sidedrawer-nav li {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-top: 2px solid rgba(255,255,255,0);
+    border-bottom: 2px solid rgba(255,255,255,0);
+    width: 125px;
+    margin: 15px auto;
+    transition: all 0.5s;
+}
+
+.side-li.active {
+    border-bottom: 2px solid rgba(255,255,255,1);
+    border-top: 2px solid rgba(255,255,255,1);
+    transition: all 0.5s;
+}

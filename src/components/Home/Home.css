@@ -1,0 +1,105 @@
+.home {
+    height: 100vh;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./LTRX1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    color: white;
+    text-align: center;
+}
+
+.home-title {
+    height: 100%;
+    font-size: 2rem;
+    padding-top: 30vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-title h1 {
+    font-weight: bold;
+}
+
+.home-title p {
+    font-size: 1.4rem;
+    padding: 50px;
+    font-weight: 300;
+}
+
+.home-text {
+    opacity: 0;
+    animation: reveal 1s cubic-bezier(0, 0, 0, 1) 1 normal forwards;
+}
+
+.home-title i {
+    margin-top: 20vh;
+    cursor: pointer;
+}
+
+.first {
+    animation-delay: 0.5;
+}
+.second {
+    animation-delay: 1s;
+}
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        transform: translateY(40%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1000px) {
+    .home-title {
+        font-size: 1.8rem;
+    }
+    
+    .home-title p {
+        font-size: 1.2rem;
+        padding: 50px;
+        font-weight: 300;
+    }
+    
+    .home-title i{
+        margin-top: 10%;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 760px){
+    .home-title {
+        font-size: 1.8rem;
+    }
+    
+    .home-title p {
+        font-size: 1.4rem;
+        padding: 50px;
+    }
+}
+
+@media (max-width: 657px) {
+    .home-title {
+        font-size: 1.4rem;
+    }
+    .home-title p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 420px){
+    .home-title {
+        font-size: 1.2rem;
+    }
+    
+    .home-title p {
+        font-size: .8rem;
+        padding: 50px;
+    }
+}

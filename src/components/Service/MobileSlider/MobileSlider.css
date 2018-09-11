@@ -1,0 +1,39 @@
+.mob-slider {
+    width: 100%;
+    color: black;
+    height: 100%;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.mob-slider.none {
+    display: none;
+}
+
+#mob-prev,#mob-next {
+    position: absolute;
+    font-size: 4rem;
+    cursor: pointer;
+    top: 0;
+}
+
+#mob-prev {
+    left: 0;
+    padding-left: 25px;
+}
+#mob-next {
+    right: 0;
+    padding-right: 25px;
+}
+
+@media (max-width: 650px) {
+    #mob-prev,#mob-next {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 375px) {
+    #mob-prev,#mob-next {
+        font-size: 2rem;
+    }
+}
